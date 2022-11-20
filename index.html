@@ -49,7 +49,7 @@
                     <div class="subheading mb-5">
                         Researcher . Software Engineer
                     </div>
-                    <p class="lead mb-5">Hello, I am Najrin Sultana currently working as a Software Engineer at <a href="https://www.optimizely.com/">Optimizely</a>. 
+                    <p class="lead mb-5">Hello, I am Najrin Sultana currently working as an Adjunct Lecturer at Department of Computer Science at <a href="https://cse.buet.ac.bd/"> Bangladesh University of Engineering and Technology </a> and as a Software Engineer I at <a href="https://www.optimizely.com/">Optimizely</a>. 
                         My research interests broadly lies in:
                     
                     <div class="lead-mb-5">
@@ -73,10 +73,10 @@
 
                 <p class="lead mb-5">
                     You can find more information in my
-                    <a href="https://drive.google.com/file/d/1aPxfBSlh5RowasLyPWt0Xvzd4OPK3fc7/view?usp=share_link" download >CV</a>  
+                    <a href="https://drive.google.com/file/d/1eevkVq4cEB2ZkjFo92oy9g8F12oDXOAq/view?usp=share_link" download >CV</a>  
                 </p>
                 <p class="lead mb-5">
-                    In addition to my academic pursuits, I like to maintain a varied range of interests. I enjoy travelling a lot. I also love cooking, gardening, watching movies and series, fishing, swimming and playing indoor and outdoor games.
+                    I love to be involved in diverse activities and maintain a varied range of interests. I enjoy travelling a lot. I also love cooking, gardening, watching movies and series, fishing, swimming and playing indoor and outdoor games.
                 </p>
                  
                     <div class="social-icons">
@@ -115,10 +115,11 @@
                         <div class="flex-grow-1">
                             <h3 cclass="mb-0" style="color: #003f88;"><a href="https://arxiv.org/abs/2210.05109">BanglaParaphrase: A High-Quality Bangla Paraphrase Dataset</a></h3>
                             <div class="subheading mb-3">CO-Authors: Md. Ajwad Akil, Abhik Bhattacharya, Dr. Rifat Shahriyar</div>
-                            <p> In this work, we present BanglaParaphrase, a high-quality synthetic Bangla Paraphrase dataset curated
-                                by a novel filtering pipeline. We aim to take a step towards alleviating the low resource status of the Bangla language in the NLP domain through the introduction of BanglaParaphrase, which ensures quality by preserving both semantics and diversity, making it particularly useful to enhance other Bangla datasets. We show a detailed comparative analysis between our dataset and models trained on it with other existing works to establish the viability of our synthetic paraphrase data generation pipeline.
-                                   
-                            </p>
+                            <ul class="fa-ul mb-0">
+                                <li> In this work, we present BanglaParaphrase, a high-quality synthetic Bangla Paraphrase dataset curatedby a novel filtering pipeline.</li>
+                                <li> We aim to take a step towards alleviating the low resource status of the Bangla language in the NLP domain through the introduction of BanglaParaphrase, which ensures quality by preserving both semantics and diversity, making it particularly useful to enhance other Bangla datasets.</li>
+                                <li>We show a detailed comparative analysis between our dataset and models trained on it with other existing works to establish the viability of our synthetic paraphrase data generation pipeline.</li>
+                            </ul>
 
                             <div class="subheading mb-3">Status: This work is accepted in <a href="https://aaclweb.org/">AACL</a></div>
                         </div>
@@ -135,10 +136,12 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Unsupervised Bangla Text Simplification</h3>
                             <div class="subheading mb-3">CO-Authors: Md. Ajwad Akil, Dr. Rifat Shahriyar</div>
-                            <p> This research project was a part of my undergraduate thesis where we worked on Bangla Text Simplification without the need of
-                                a parallel corpus. We framed the problem of text Simplification as a style transfer problem and leveraging the parphrase generating model we developed as part
-                                of our thesis, we are attempting to simplify complex Bangla texts. As of now, The results look promising and we have identified the potential bottlenecks of the pipeline. We hope to ameliorate
-                                the performance upon further experimentations.</p>
+                            <ul class="fa-ul mb-0">
+                                <li> Using a diverse paraprase generating model, we attempted to simplify complex Bangla texts in an unsupervised way by leveraging style transfer mechanisms.</li>
+                                <li> The available non-parallel labelled data was insufficient to fine-tune a text generation model. So we fine-tuned BanglaBERT’s token classifier with the data and labelled more data to use them in the simplification task.</li>
+                                <li> The final outcome looks promising. The output looks simplified by manual observation. But the accuracy is lower than expectation which is determined by the result of the classifier. The main reason we identified is the noise in the initial labelled data which was used to train the classifier.</li>
+                                <li> We plan to work on this further by gathering more cleaner labelled data and hope to achieve much better results.</li>
+                            </ul>
 
                             <div class="subheading mb-3">Status: Ongoing Research Project </div>
                         </div>
@@ -155,9 +158,9 @@
                     <div class="resume-content">
 
                         <div class="d-flex flex-column flex-md-row justify-content align-items-center mb-3">
-                            <img src="assets/img/optimizely_logo.png" alt="..." width="70" height="70" />
-                            <div class="subheading ms-3">Software Engineer</div>
-                            <div class="ms-auto"><span class="text-primary">May 2022 - Present</span></div>
+                            <a href="https://www.linkedin.com/company/optimizely/"><img src="assets/img/optimizely_logo.png" alt="..." width="70" height="70" /></a>
+                            <div class="subheading ms-3">Software Engineer I</div>
+                            <div class="ms-auto"><span class="text-primary">November 2022 - Present</span></div>
                         </div>
 
                         <!-- <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
@@ -166,12 +169,38 @@
                             <div class="flex-shrink-0"><span class="text-primary">June 2022 - Present</span></div>
                             
                         </div> -->
-                        <p class="mb-5"> 
-                            Developed a new micro-service Renditions-Service to generate renditions for assets and integrated it with existing services.
-                        </p>
-                        <p class="mb-5"> 
-                            <b>Technologies Used: </b> Python, FastAPI, Pytest, Celery, Docker,PostgreSQL, MySQL, SQLAlchemy, Alembic, Webhook-Broker, Jenkins, AWS, Git
-                        </p>
+                        <ul class="fa-ul mb-0">
+                            <li> Workig on improving and adding new features to a micro-service which generates renditions for image assets.</li>
+                            <li> Added support to the micro-service for generating renditions for video assets. Working on enhancing the video rendition generator.</li>
+                            <li> Working to support customer provided rendition generators.</li>
+                            <li> <b>Technologies Used :</b> Python, FastAPI, Pytest, Celery, Docker, MySQL, Redis, SQLAlchemy, Alembic,
+                                Webhook-Broker, FFmpeg, Jenkins, AWS, Kubernetes, Git</li>
+                        </ul>
+                        <!-- <h3 class="mb-0">BanglaParaphrase: A synthtic Bangla Paraphrase dataset ensuring rich Diversity and Semantics</h3> -->
+                            
+                        
+             
+                     </div>
+                    <div class="resume-content">
+
+                        <div class="d-flex flex-column flex-md-row justify-content align-items-center mb-3">
+                            <a href="https://www.linkedin.com/company/optimizely/"><img src="assets/img/optimizely_logo.png" alt="..." width="70" height="70" /></a>
+                            <div class="subheading ms-3">Software Engineer Intern</div>
+                            <div class="ms-auto"><span class="text-primary">May 2022 - October 2022</span></div>
+                        </div>
+
+                        <!-- <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
+                            <img src="assets/img/UIU_logo.png" alt="..." width="70" height="70" />
+                            <div class="subheading mb-3">Lecturer, Department of Computer Science and Engineering</div>
+                            <div class="flex-shrink-0"><span class="text-primary">June 2022 - Present</span></div>
+                            
+                        </div> -->
+                        <ul class="fa-ul mb-0">
+                            <li> Developed a new micro-service to generate renditions for image assets and integrated it with existing services.</li>
+                            <li> Productionized the service during the internship period.</li>
+                            <li> <b>Technologies Used :</b> Python, FastAPI, Pytest, Celery, Docker,PostgreSQL, MySQL, SQLAlchemy,
+                                Alembic, Webhook-Broker, Kubernetes, Jenkins, AWS, Git</li>
+                        </ul>
                         <!-- <h3 class="mb-0">BanglaParaphrase: A synthtic Bangla Paraphrase dataset ensuring rich Diversity and Semantics</h3> -->
                             
                         
